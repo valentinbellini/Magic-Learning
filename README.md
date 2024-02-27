@@ -60,7 +60,7 @@ En un nivel alto, el proceso de creación de procesos de aprendizaje automático
    
 7. **Predecir**: Utiliza nuevas entradas para probar la precisión de tu modelo.
 
-<span style="color:blue">#### Características y Objetivo</span>
+#### Características y Objetivo
 
 Una característica es una propiedad medible de tus datos. En muchos conjuntos de datos se expresa como un encabezado de columna como 'fecha', 'tamaño' o 'color'. Tu variable de característica, generalmente representada como `X` en código, representa la variable de entrada que se utilizará para entrenar el modelo.
 
@@ -68,13 +68,13 @@ Un objetivo es lo que estás tratando de predecir. El objetivo generalmente se r
 
 Antes de entrenar, debes dividir tu conjunto de datos en dos o más partes de tamaño desigual que aún representen bien los datos.
 
-<span style="color:blue">#### División del Conjunto de Datos</span>
+#### División del Conjunto de Datos
 
 - **Entrenamiento**: Esta parte del conjunto de datos se ajusta a tu modelo para entrenarlo. Este conjunto constituye la mayoría del conjunto de datos original.
 - **Prueba**: Un conjunto de datos de prueba es un grupo independiente de datos, a menudo recopilado de los datos originales, que utilizas para confirmar el rendimiento del modelo construido.
 - **Validación**: Un conjunto de validación es un grupo independiente más pequeño de ejemplos que utilizas para ajustar los hiperparámetros o la arquitectura del modelo para mejorar el modelo. Dependiendo del tamaño de tus datos y la pregunta que estés haciendo, es posible que no necesites construir este tercer conjunto.
 
-<span style="color:blue">#### Construcción de un Modelo</span>
+#### Construcción de un Modelo
 
 Dependiendo de tu pregunta y la naturaleza de tus datos, elegirás un método para entrenarlo. Al explorar la documentación de [Scikit-learn](https://scikit-learn.org/stable/user_guide.html) - que uso en este repositorio - puedes explorar muchas formas de entrenar un modelo.
 
