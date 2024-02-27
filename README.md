@@ -31,7 +31,7 @@ Para estos proyectos, estoy utilizando las siguientes bibliotecas:
 ### Divisiones de Carpeta en el Repositorio
 
 El repositorio estará organizado en cinco carpetas principales, cada una dedicada a un tipo específico de modelo de aprendizaje automático:
-1. Regresión
+1. [Regresión](./Regression/README.md)
 2. Clasificación
 3. Agrupación
 4. Procesamiento del Lenguaje Natural (NLP)
