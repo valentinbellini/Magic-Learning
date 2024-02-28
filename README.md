@@ -4,7 +4,7 @@
 
 Este repositorio es parte de mi ruta personal de aprendizaje en el campo del aprendizaje automático y el análisis de datos. Estoy utilizando estos proyectos como una oportunidad para explorar diferentes técnicas, algoritmos y enfoques en el mundo del ML.
 
-Además, este repositorio forma parte del curso ["Machine Learning for Beginners"](https://github.com/microsoft/ML-For-Beginners) ofrecido por Microsoft. A través de este curso, estoy adquiriendo conocimientos prácticos y teóricos sobre el aprendizaje automático y su aplicación en diversos contextos. Es por esto que muchos de los comentarios y explicaciones de códigos están en inglés.
+Además, este repositorio forma parte del curso ["Machine Learning for Beginners"](https://github.com/microsoft/ML-For-Beginners) ofrecido por Microsoft. A través de este curso, estoy adquiriendo conocimientos prácticos y teóricos sobre el aprendizaje automático y su aplicación en diversos contextos. Es por esto que muchos de los comentarios y explicaciones de códigos están en inglés. Además, agrego otros ejemplos de proyectos personales en su carpeta correspondiente para complementar mi aprendizaje.
 
 ---
 

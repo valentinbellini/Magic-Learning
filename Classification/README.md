@@ -1,7 +1,7 @@
-Classification is a form of `supervised learning` that bears a lot in common with regression techniques. If machine learning is all about predicting values or names to things by using datasets, then classification generally falls into two groups: binary classification and multiclass classification.
+La clasificación es un tipo de `aprendizaje supervisado` que tiene mucho en común con técnicas de regresión. Si el el machine learning es sobre predecir valores o nombres usando datasets, entonces la clasificación generalmente se divide en dos grupos: `binary classification` and `multiclass classification`
 
-Remember:
+Recordar:
 
-- Linear regression helped you predict relationships between variables and make accurate predictions on where a new datapoint would fall in relationship to that line. So, you could predict what price a pumpkin would be in September vs. December, for example.
-- Logistic regression helped you discover "binary categories": at this price point, is this pumpkin orange or not-orange?
-- Classification uses various algorithms to determine other ways of determining a data point's label or class. Let's work with this cuisine data to see whether, by observing a group of ingredients, we can determine its cuisine of origin.
+- La regresión lineal le ayudó a predecir las relaciones entre las variables y a realizar predicciones precisas sobre dónde caería un nuevo punto de datos en relación con esa línea. Por lo tanto, podría predecir el precio de una calabaza en septiembre frente a diciembre, por ejemplo.
+- La regresión logística te ayudó a descubrir "categorías binarias": a este precio, ¿es naranja calabaza o no naranja?
+- La clasificación utiliza varios algoritmos para determinar otras formas de determinar la etiqueta o clase de un punto de datos. Vamos a trabajar con estos datos de cocina para ver si, mediante la observación de un grupo de ingredientes, podemos determinar su cocina de origen.
