@@ -1,6 +1,6 @@
-## [Clustering] (https://github.com/valentinbellini/ML-For-Beginners/blob/main/5-Clustering/1-Visualize/README.md)
+# [Clustering] (https://github.com/valentinbellini/ML-For-Beginners/blob/main/5-Clustering/1-Visualize/README.md)
 
-### Introducción
+## Introducción
 
 El clustering es una tarea de aprendizaje automático no supervisado en la que busca encontrar objetos que se parezcan entre sí y agruparlos en grupos denominados clusters de manera que los elementos dentro de un mismo grupo sean más similares entre sí que con los elementos de otros grupos.
 
@@ -8,9 +8,8 @@ En una configuración profesional, clustering puede ser usado para determinar co
 
 Una vez que los datos están organizados en clusters, se les asigna un identificador de clúster (cluster ID), y esta técnica puede ser útil para preservar la privacidad de un conjunto de datos; En su lugar, puede hacer referencia a un punto de datos por su identificador de clúster, en lugar de por datos identificables más reveladores.
 
----
 
-### Scikit-Learn Clustering
+## Scikit-Learn Clustering
 
 [Scikit-learn](https://scikit-learn.org/stable/modules/clustering.html) ofrece una larga lista de métodos para clustering. El tipo que elijas dependerá de cada caso particular. Según la documentación, cada método tiene sus beneficios. Aquí dejamos una lista simplificada de los métodos que soporta Scikit-learn y sus respectivos casos de uso apropiados.
 
@@ -25,9 +24,8 @@ Una vez que los datos están organizados en clusters, se les asigna un identific
 - Gaussian mixtures:	[flat geometry](https://datascience.stackexchange.com/questions/52260/terminology-flat-geometry-in-the-context-of-clustering), inductive
 - BIRCH:	large dataset with outliers, inductive
 
----
 
-### Clustering algorithms
+## Clustering algorithms
 
 Hay mas de 100 algortismos de clustering, y su uso, como dijimos, depende de la naturaleza de los datos. Veamos algunos de los mas utilizados.
 
@@ -42,7 +40,7 @@ Hay mas de 100 algortismos de clustering, y su uso, como dijimos, depende de la 
 - **Grid-based clustering**. For multi-dimensional datasets, a grid is created and the data is divided amongst the grid's cells, thereby creating clusters.
 
 
-### K-Means clustering
+## K-Means clustering
 
 El agrupamiento K-medias es un método derivado del dominio del procesamiento de señales. Se usa para dividir y particionar grupos de datos en 'k' grupos usando una serie de observaciones. Cada observación funciona para agrupar un punto de datos más cercano a su 'media' más cercana, o el punto central de un grupo.
 

@@ -32,8 +32,8 @@ Para estos proyectos, estoy utilizando las siguientes bibliotecas:
 
 El repositorio estará organizado en cinco carpetas principales, cada una dedicada a un tipo específico de modelo de aprendizaje automático:
 1. [Regresión](./Regression/README.md)
-2. Clasificación
-3. Agrupación
+2. [Clasificación](./Classification/README.md)
+3. [Clustering](./Clustering/README.md)
 4. Procesamiento del Lenguaje Natural (NLP)
 5. Series Temporales
 

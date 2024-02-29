@@ -6,8 +6,6 @@ Por ejemplo, un algoritmo puede aprender a predecir si un determinado correo ele
 
 Antes de sumergirnos en el concepto de clasificación, primero comprenderemos la diferencia entre los dos tipos de alumnos en la clasificación: los alumnos perezosos y los ansiosos. A continuación aclararemos el concepto erróneo entre clasificación y regresión. 
 
----
-
 ## Aprendices perezosos Vs. Aprendices ansiosos
 
 En la clasificación del machine learning hay dos tipos de aprendices: los perezosos y los ansiosos. 
@@ -163,3 +161,6 @@ Se trata de un algoritmo explicable. Clasifica un punto de datos modelando su pr
 ```
 
 
+## Referencia
+
+[Datacamp: classification-machine-learning](https://next-marketing.datacamp.com/es/blog/classification-machine-learning)
