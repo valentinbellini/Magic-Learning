@@ -25,6 +25,7 @@ Para estos proyectos, estoy utilizando las siguientes bibliotecas:
 - `pandas`
 - `seaborn`
 - `scikit-learn`
+- `textblob`
 
 ---
 
