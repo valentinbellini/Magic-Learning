@@ -102,6 +102,8 @@ Este método se utiliza para crear un objeto de índice de fecha y hora a partir
     month = pd.DatetimeIndex(pumpkins['Date']).month
 ```
 
+--- 
+
 ## Regresión
 
 La regresión busca encontrar la relación funcional entre las variables independientes (input) y la variable dependiente (output). Esta relación se representa típicamente como una función matemática. En términos simples, la regresión intenta ajustar una línea (o curva) que mejor se ajuste a los datos observados.
@@ -138,6 +140,8 @@ Aquí hay un ejemplo simple de cómo usar regresión lineal en scikit-learn:
     # Hacer predicciones
     predictions = model.predict(X_test)
 ```
+
+---
 
 ## Clasificación
 
@@ -197,3 +201,57 @@ Ejemplo de uso de `regresión logística` para clasificación multiclase:
     accuracy = model.score(X_test, y_test)
     print ("Accuracy is {}".format(accuracy))
 ```
+
+---
+
+## Clustering
+
+El clustering es una tarea de aprendizaje automático no supervisado en la que busca encontrar objetos que se parezcan entre sí y agruparlos en grupos denominados clusters de manera que los elementos dentro de un mismo grupo sean más similares entre sí que con los elementos de otros grupos.
+
+En una configuración profesional, clustering puede ser usado para determinar cosas como segmentación del mercado o determinar que grupo etaria compra que artículos por ejemplo.
+
+Una vez que los datos están organizados en clusters, se les asigna un identificador de clúster (cluster ID), y esta técnica puede ser útil para preservar la privacidad de un conjunto de datos; En su lugar, puede hacer referencia a un punto de datos por su identificador de clúster, en lugar de por datos identificables más reveladores.
+
+### Scikit-Learn Clustering
+
+[Scikit-learn](https://scikit-learn.org/stable/modules/clustering.html) ofrece una larga lista de métodos para clustering. El tipo que elijas dependerá de cada caso particular.
+
+### K-Means clustering
+
+El agrupamiento K-medias es un método derivado del dominio del procesamiento de señales. Se usa para dividir y particionar grupos de datos en 'k' grupos usando una serie de observaciones. Cada observación funciona para agrupar un punto de datos más cercano a su 'media' más cercana, o el punto central de un grupo.
+
+Los grupos pueden ser visualizados como [diagramas Voronoi](https://en.wikipedia.org/wiki/Voronoi_diagram), los cuales incluye un punto (o 'semilla') y su región correspondiente.
+
+A continuación se proporciona un ejemplo utilizando K-means:
+
+```python
+    from sklearn.preprocessing import LabelEncoder
+    le = LabelEncoder()
+
+    X = df.loc[:, ('artist_top_genre','popularity','danceability','energy')]
+
+    y = df['artist_top_genre']
+
+    # Esto asigna un número único a cada valor único presente en la columna 'artist_top_genre'
+    X['artist_top_genre'] = le.fit_transform(X['artist_top_genre'])
+
+    # Codificamos los valores de la variable objetivo
+    y = le.transform(y)
+
+    # CLUSTERING: 
+    from sklearn.cluster import KMeans
+
+    nclusters = 3 
+    seed = 0
+
+    km = KMeans(n_clusters=nclusters, random_state=seed)
+    km.fit(X)
+
+    # Predict the cluster for each data point
+
+    y_cluster_kmeans = km.predict(X)
+    y_cluster_kmeans # Arreglo impreso con los grupos predichos (0, 1, 0 2) para cada fila del dataframe.
+```
+
+Además existen técnicas como `Elbow Method` que están explicadas y utilizadas de manera práctica en [K-means.ipynb](./Clustering/2.K-means.ipynb).
+
