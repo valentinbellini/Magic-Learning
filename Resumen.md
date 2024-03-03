@@ -255,3 +255,8 @@ A continuación se proporciona un ejemplo utilizando K-means:
 
 Además existen técnicas como `Elbow Method` que están explicadas y utilizadas de manera práctica en [K-means.ipynb](./Clustering/2.K-means.ipynb).
 
+
+
+## Real World Applications
+
+![Real World](./images/ml-realworld.png)

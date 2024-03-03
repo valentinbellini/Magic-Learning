@@ -26,6 +26,7 @@ Para estos proyectos, estoy utilizando las siguientes bibliotecas:
 - `seaborn`
 - `scikit-learn`
 - `textblob`
+- `statsmodels`
 
 ---
 
