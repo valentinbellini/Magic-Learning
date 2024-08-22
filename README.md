@@ -36,8 +36,8 @@ El repositorio estará organizado en cinco carpetas principales, cada una dedica
 1. [Regresión](./Regression/README.md)
 2. [Clasificación](./Classification/README.md)
 3. [Clustering](./Clustering/README.md)
-4. Procesamiento del Lenguaje Natural (NLP)
-5. Series Temporales
+4. [Procesamiento del Lenguaje Natural (NLP)](./NLP/README.md)
+5. [Series Temporales](./TimeSeries/README.md)
 
 Estas carpetas contendrán proyectos específicos relacionados con cada tipo de modelo, junto con documentación y ejemplos de código para guiar el proceso de desarrollo y análisis de datos. Además, se proporcionarán instrucciones para instalar las bibliotecas necesarias y utilizar los cuadernos Jupyter para ejecutar los proyectos.
 
